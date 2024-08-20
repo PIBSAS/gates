@@ -141,7 +141,7 @@
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: "A";
   height: 39px;
   width: 39px;
   left: 2px;
@@ -152,11 +152,11 @@
 }
 
 input:checked + .slider {
-  background-color: #b50b12;
+  background-color: #28f747;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #28a745;
+  box-shadow: 0 0 1px #28f747;
 }
 
 input:checked + .slider:before {
@@ -183,7 +183,6 @@ input:checked + .slider:before {
  
 input:checked + .slider.round:before {
     content: "1";
-    color: white;
 }
 
 table.Tabla-V {
