@@ -83,14 +83,14 @@
   align-items: center;
 }
 
-.ButtonA { grid-area: 1 / 1 / 2 / 2; 
+.ButtonB { grid-area: 1 / 1 / 2 / 2; 
           display: flex; /* Usa flexbox para alinear la etiqueta y el slider en una fila */
   align-items: center; /* Alinea verticalmente la etiqueta y el slider */
-  margin-bottom: 10px; /* Espacio entre cada par de slider y etiqueta */
 }
 
-.ButtonB { grid-area: 2 / 1 / 3 / 2;    
-
+.ButtonA { grid-area: 2 / 1 / 3 / 2;    
+display: flex;
+    align-items: center;
 }
 
 .diodo{
