@@ -122,6 +122,7 @@
 }
 
 .switch {
+  margin-left: 0px;
   position: relative;
   display: inline-block;
   width: 94px;
@@ -135,7 +136,7 @@
 }
 
 .slabel {
-  margin-right: 10px; /* Espacio entre la etiqueta y el slider */
+  margin-right: 5px; /* Espacio entre la etiqueta y el slider */
   font-weight: 700; /* Estilo de texto */
 }
 
