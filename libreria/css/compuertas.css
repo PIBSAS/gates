@@ -189,8 +189,8 @@ input:checked + .SWslider.round:before {
 
 /*Tabla*/
 table.Tabla-V {
-  border: 2px solid #777777;
-  background-color: #2A5C84;
+  border: 2px solid #690808;
+  background-color: #3e18c7;
   width: 300px;
   height: 200px;
   text-align: center;
@@ -200,7 +200,7 @@ table.Tabla-V {
   min-height: 200px;
 }
 table.Tabla-V td, table.Tabla-V th {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #0c0233;
   padding: 5px 10px;
 }
 table.Tabla-V tbody td {
@@ -209,10 +209,10 @@ table.Tabla-V tbody td {
   color: #FFFFFF;
 }
 table.Tabla-V tr:nth-child(even) {
-  background: #777777;
+  background: #3699d6;
 }
 table.Tabla-V thead {
-  background: #A8A8A8;
+  background: #056120;
   border-bottom: 0px solid #398AA4;
 }
 table.Tabla-V thead th {
