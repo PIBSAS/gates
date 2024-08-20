@@ -187,7 +187,7 @@ input:checked + .slider.round:before {
 
 table.Tabla-V {
   border: 2px solid #690808;
-  background-color: #836399;
+  background-color: #836e91;
   width: 300px;
   height: 200px;
   text-align: center;
@@ -209,7 +209,7 @@ table.Tabla-V tbody td {
 }
 
 table.Tabla-V tr:nth-child(even) {
-  background: #3699d6;
+  background: #7bb2d4;
 }
 
 table.Tabla-V thead {
