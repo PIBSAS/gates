@@ -137,7 +137,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #AF4C50;
+  background-color: #d1131b;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -155,18 +155,18 @@
 }
 
 input:checked + .SWslider {
-  background-color: #4CAF50;
+  background-color: #d1131b;
 }
 
 input:focus + .SWslider {
-  box-shadow: 0 0 1px #4CAF50;
+  box-shadow: 0 0 1px #d1131b;
 }
 
 input:checked + .SWslider:before {
   -webkit-transform: translateX(46px);
   -ms-transform: translateX(46px);
   transform: translateX(46px);
-  color:#4CAF50;
+  color:#d1131b;
 }
 .SWslider.round {
   border-radius: 34px;
@@ -180,11 +180,11 @@ input:checked + .SWslider:before {
   border-radius: 50%;
   content:"O";
    font-weight: 700;
-   color: #AF4C50;
+   color: #d1131b;
 }
  
 input:checked + .SWslider.round:before {
-      content: "I";
+      content: "1";
 }
 
 /*Tabla*/
