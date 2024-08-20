@@ -60,13 +60,13 @@
         <div class="ButtonA" id="S1" data-out="0">
             <label class="switch">
                 <input type="checkbox" onclick="toggleOutputState('componentId','S1');simulateANDGate('componentId');">
-                <span class="SWslider round"></span>
+                <span class="SWslider round">0</span>
             </label>
         </div>
         <div class="ButtonB" id="S2" data-out="0">
             <label class="switch">
                 <input type="checkbox" onclick="toggleOutputState('componentId','S2');simulateANDGate('componentId');">
-                <span class="SWslider round"></span>
+                <span class="SWslider round">0</span>
             </label>
         </div>
         <div class="none"></div>
@@ -479,5 +479,20 @@
 </div>
 
 <script src="js/gate.js"></script>
+<script>
+        // Selecciona el slider y el span donde mostrar el valor
+        const slider1 = document.getElementById('SWslider round');
+        const slider1Value = document.getElementById('slider1Value');
+
+        // Actualiza el texto del span según el valor del slider
+        slider1.addEventListener('input', function() {
+            slider1Value.textContent = slider1.value;
+        });
+
+        // Si el valor inicial del slider es dinámico, actualiza el valor del span al cargar
+        window.onload = function() {
+            slider1Value.textContent = slider1.value;
+        };
+</script>
 </body>
 </html>
