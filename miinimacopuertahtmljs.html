@@ -48,16 +48,16 @@
 	</div>
 	<!--Fin Tabla-->
 	<!--Logica AND-->
-	<div class="col-lg-6 container-Left bg-and" id="cmp2">
-		<div class="ButtonA " id="S1" data-out="0">
+	<div class="col-lg-6 container-Left bg-and" id="componentId">
+		<div class="ButtonA " id="switchId" data-out="0">
 			<label class="switch">
-				<input type="checkbox" id="SO" onclick="switchTW('cmp2','S1');FNC_AND('cmp2');">
+				<input type="checkbox" id="S1" onclick="toggleOutputState('componentId','S1');simulateANDGate('componentId');">
 				<span class="SWslider round"></span>
 			</label>
 		</div>
 		<div class="ButtonB" id="S2" data-out="0">
 			<label class="switch">
-				<input type="checkbox" id="SO" onclick="switchTW('cmp2','S2');FNC_AND('cmp2');">
+				<input type="checkbox" id="S2" onclick="toggleOutputState('componentId','S2');simulateANDGate('componentId');">
 				<span class="SWslider round"></span>
 			</label>
 		</div>
@@ -78,5 +78,5 @@
 	<br>
 </body>
 	<!--Javascript funciones logicas-->
-	<script src="libreria/js/compuertas.js"></script>
+	<script src="libreria/js/gates.js"></script>
 	
