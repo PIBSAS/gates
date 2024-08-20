@@ -5,13 +5,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function initGates() {
     // Inicializar compuertas AND
-    //simulateANDGate('componentId');
-    //simulateORGate('componentId');
+    simulateANDGate('componentId');
+    simulateORGate('componentId');
     simulateNOTGate('componentId');
-    //simulateIFGate('componentId');
+    simulateIFGate('componentId');
     simulateNANDGate('componentId');
     simulateNORGate('componentId');
-    //simulateXORGate('componentId');
+    simulateXORGate('componentId');
     simulateXNORGate('componentId');
 }
 
