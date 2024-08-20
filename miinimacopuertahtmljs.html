@@ -1,0 +1,82 @@
+<head>
+
+    <title>Las Compuertas Lógicas y sus Operaciones Lógicas</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--- Estilos Necesarios-->
+	<link rel="stylesheet" href="libreria/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libreria/estilos.css">
+    <link rel="stylesheet" type="text/css" href="libreria/css/compuertas.css">
+</head>
+<body>
+<div class="row justify-content-center py-4">
+	<!--Tabla Inicio-->
+	<div class="col-lg-6 table-container">
+		<table id="Tand" class="Tabla-V">
+			<thead>
+				<tr>
+					<th>B</th>
+					<th>A</th>
+					<th>SALIDA</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr style="background-color: #FD6F1D">
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>0</td>
+					<td>1</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>0</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+			</tbody>
+			</tr>
+		</table>
+	</div>
+	<!--Fin Tabla-->
+	<!--Logica AND-->
+	<div class="col-lg-6 container-Left bg-and" id="cmp2">
+		<div class="ButtonA " id="S1" data-out="0">
+			<label class="switch">
+				<input type="checkbox" id="SO" onclick="switchTW('cmp2','S1');FNC_AND('cmp2');">
+				<span class="SWslider round"></span>
+			</label>
+		</div>
+		<div class="ButtonB" id="S2" data-out="0">
+			<label class="switch">
+				<input type="checkbox" id="SO" onclick="switchTW('cmp2','S2');FNC_AND('cmp2');">
+				<span class="SWslider round"></span>
+			</label>
+		</div>
+		<div class="none"></div>
+		<div class="led off" id="out1"><img src="images/diodo-led.svg" class="diodo" /> </div>
+	</div>
+	<!--Fin de Logica-->
+</div>
+	<br>
+	<!--Formula funcion-->
+	<div align="center">
+		<img src="images/form1.webp" width="230" height="104" class="image_productos" alt="compuert_log" title="Fórmula Compuerta Lógica AND">
+
+		<br><b>Tabla, Representación y Fórmula Compuerta AND</b>
+	</div>
+	<!--Fin Formula-->
+	<br>
+	<br>
+</body>
+	<!--Javascript funciones logicas-->
+	<script src="libreria/js/compuertas.js"></script>
+	
