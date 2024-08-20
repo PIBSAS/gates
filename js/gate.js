@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function initGates() {
     // Inicializar compuertas AND
+    console.log("Inicializando compuertas...");
     simulateANDGate('componentId');
     simulateORGate('componentIdOR');
     simulateNOTGate('componentIdNOT');
@@ -13,6 +14,8 @@ function initGates() {
     simulateNORGate('componentIdNOR');
     simulateXORGate('componentIdXOR');
     simulateXNORGate('componentIdXNOR');
+    console.log("Inicialización completa.");
+    
 }
 
 function toggleOutputState(componentId, switchId) {
@@ -28,6 +31,7 @@ function toggleOutputState(componentId, switchId) {
     } else {
         switchElement.dataset.out = "0";
     }
+    console.log("Estado del interruptor " + switchId + ": " + switchElement.dataset.out);
 }
 
 // Comppuerta AND
@@ -62,6 +66,7 @@ function simulateANDGate(componentId) {
     } else {
         output.className = "led off";
     }
+    console.log("AND - Estado S1: " + switch1.dataset.out + ", S2: " + switch2.dataset.out + ", Salida: " + output.className);
 }
 
 // Comppuerta OR
@@ -96,6 +101,7 @@ function simulateORGate(componentId) {
     } else {
         output.className = "led off";
     }
+    console.log("or - Estado S1: " + switch1.dataset.out + ", S2: " + switch2.dataset.out + ", Salida: " + output.className);
 }
 
 // Compuerta NOT
