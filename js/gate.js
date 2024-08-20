@@ -1,17 +1,19 @@
-// Función para inicializar los estados de las compuertas
-function initializeGates() {
-    // Establecer estado inicial de las compuertas
-    // XNOR
-    document.getElementById('#out1').classList.remove('off');
-    document.getElementById('#out1').classList.add('on');
-    
-    // Repite para otras compuertas si es necesario
-}
+document.addEventListener("DOMContentLoaded", function() {
+    // Inicializar el estado de cada compuerta
+    initGates();
+});
 
-// Llama a la función de inicialización al cargar la página
-window.onload = function() {
-    initializeGates();
-};
+function initGates() {
+    // Inicializar compuertas AND
+    //simulateANDGate('componentId');
+    //simulateORGate('componentId');
+    simulateNOTGate('componentId');
+    //simulateIFGate('componentId');
+    simulateNANDGate('componentId');
+    simulateNORGate('componentId');
+    //simulateXORGate('componentId');
+    simulateXNORGate('componentId');
+}
 
 function toggleOutputState(componentId, switchId) {
     // Obtener el componente principal por su ID
