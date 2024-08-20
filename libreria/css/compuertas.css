@@ -132,7 +132,7 @@ display: flex;
 
 .slabel {
   margin-right: 10px; /* Espacio entre la etiqueta y el slider */
-  font-weight: bold; /* Estilo de texto */
+  font-weight: 700; /* Estilo de texto */
 }
 
 .slider {
