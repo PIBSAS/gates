@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
 function initGates() {
     // Inicializar compuertas AND
     simulateANDGate('componentId');
-    simulateORGate('componentId');
-    simulateNOTGate('componentId');
-    simulateIFGate('componentId');
-    simulateNANDGate('componentId');
-    simulateNORGate('componentId');
-    simulateXORGate('componentId');
-    simulateXNORGate('componentId');
+    simulateORGate('componentIdOR');
+    simulateNOTGate('componentIdNOT');
+    simulateIFGate('componentIdIF');
+    simulateNANDGate('componentIdNAND');
+    simulateNORGate('componentIdNOR');
+    simulateXORGate('componentIdXOR');
+    simulateXNORGate('componentIdXNOR');
 }
 
 function toggleOutputState(componentId, switchId) {
