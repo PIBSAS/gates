@@ -85,11 +85,11 @@
 }
 
 .ButtonA { 
-    grid-area: 0 / 1 / 2 / 2; 
+    grid-area: 1 / 1 / 2 / 2; 
     display: flex; /* Usa flexbox para alinear la etiqueta y el slider en una fila */
     align-items: center; /* Alinea verticalmente la etiqueta y el slider */
     justify-content: flex-start;
-    margin-left: 0px;
+    margin-left: -5px;
 }
 
 .ButtonB { 
@@ -97,7 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 0px;
+    margin-left: -5px;
 }
 
 .diodo{
