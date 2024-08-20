@@ -156,7 +156,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #b50b12;
+  box-shadow: 0 0 1px #28a745;
 }
 
 input:checked + .slider:before {
@@ -182,7 +182,8 @@ input:checked + .slider:before {
 }
  
 input:checked + .slider.round:before {
-      content: "1";
+    content: "1";
+    color: white;
 }
 
 table.Tabla-V {
