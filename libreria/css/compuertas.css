@@ -1,6 +1,6 @@
 .container-Left {  
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -65,7 +65,7 @@
 
 .none {
   align-self: stretch;
-  grid-area: 1 / 1 / 3 / 3;
+  grid-area: 1 / 2 / 4 / 4;
   position: relative;
   width: 200px;
   height: 200px;
@@ -85,13 +85,13 @@
 }
 
 .ButtonA { 
-    grid-area: 1 / 1 / 2 / 2; 
+    grid-area: 1 / 2 / 2 / 3; 
     display: flex;
     align-items: center; /* Alinea verticalmente la etiqueta y el slider */
 }
 
 .ButtonB { 
-    grid-area: 2 / 1 / 3 / 2;    
+    grid-area: 2 / 2 / 3 / 3;    
     display: flex;
     align-items: center;
 }
