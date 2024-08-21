@@ -79,6 +79,7 @@
   width: 0px;
   height: 0px;
   overflow: visible;
+  position: relative;
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -135,7 +136,7 @@
 }
 
 .slabel {
-  margin-right: 5px; /* Espacio entre la etiqueta y el slider */
+  margin-right: 10px; /* Espacio entre la etiqueta y el slider */
   font-weight: 700; /* Estilo de texto */
 }
 
