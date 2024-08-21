@@ -65,7 +65,7 @@
 
 .none {
   align-self: stretch;
-  grid-area: 1 / 2 / 3 / 3;
+  grid-area: 1 / 1 / 3 / 3;
   position: relative;
   width: 200px;
   height: 200px;
@@ -75,7 +75,7 @@
 .led {
   justify-self: center; 
   align-self: center; 
-  grid-area: 1 / 3 / 2 / 3; 
+  grid-area: 1 / 3 / 2 / 4; 
   width: 0px;
   height: 0px;
   overflow: visible;
